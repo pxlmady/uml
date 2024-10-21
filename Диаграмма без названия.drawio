@@ -5,13 +5,13 @@
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="77e6c97f196da883-1" value="Pool" style="swimlane;html=1;childLayout=stackLayout;startSize=20;rounded=0;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" parent="1" vertex="1">
-          <mxGeometry x="70" y="40" width="480" height="750" as="geometry" />
+          <mxGeometry x="70" y="40" width="481" height="750" as="geometry" />
         </mxCell>
         <mxCell id="77e6c97f196da883-2" value="Споживач" style="swimlane;html=1;startSize=20;" parent="77e6c97f196da883-1" vertex="1">
           <mxGeometry y="20" width="160" height="730" as="geometry" />
         </mxCell>
         <mxCell id="77e6c97f196da883-3" value="Співробітник пошти" style="swimlane;html=1;startSize=20;" parent="77e6c97f196da883-1" vertex="1">
-          <mxGeometry x="160" y="20" width="160" height="730" as="geometry" />
+          <mxGeometry x="160" y="20" width="161" height="730" as="geometry" />
         </mxCell>
         <mxCell id="77e6c97f196da883-11" value="&lt;font size=&quot;1&quot;&gt;Перевірити наявність товару, отриманого на їм&#39;я споживача&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" parent="77e6c97f196da883-3" vertex="1">
           <mxGeometry x="30" y="40" width="110" height="60" as="geometry" />
@@ -25,13 +25,9 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="UqeRMRBeU40pSuons1G8-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="77e6c97f196da883-3" source="UqeRMRBeU40pSuons1G8-2">
+        <mxCell id="UqeRMRBeU40pSuons1G8-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="77e6c97f196da883-3" source="UqeRMRBeU40pSuons1G8-2">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="210" y="150" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="165" y="135" />
-              <mxPoint x="220" y="135" />
-            </Array>
+            <mxPoint x="85" y="170" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="UqeRMRBeU40pSuons1G8-2" value="" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="77e6c97f196da883-3">
@@ -49,8 +45,17 @@
         <mxCell id="77e6c97f196da883-26" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;labelBackgroundColor=none;startArrow=none;startFill=0;startSize=5;endArrow=classicThin;endFill=1;endSize=5;jettySize=auto;orthogonalLoop=1;strokeWidth=1;fontFamily=Verdana;fontSize=8" parent="77e6c97f196da883-3" source="77e6c97f196da883-8" target="77e6c97f196da883-11" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="UqeRMRBeU40pSuons1G8-18" value="&lt;font style=&quot;font-size: 6px;&quot;&gt;[ товар у наявності ]&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="77e6c97f196da883-3">
+          <mxGeometry x="-7" y="108" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="UqeRMRBeU40pSuons1G8-19" value="&lt;font style=&quot;font-size: 6px;&quot;&gt;[ товару немає ]&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="77e6c97f196da883-3">
+          <mxGeometry x="91" y="135" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="UqeRMRBeU40pSuons1G8-23" value="&lt;font size=&quot;1&quot;&gt;Звернутися до менеджера&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="77e6c97f196da883-3">
+          <mxGeometry x="30" y="170" width="110" height="60" as="geometry" />
+        </mxCell>
         <mxCell id="77e6c97f196da883-4" value="Менеджер" style="swimlane;html=1;startSize=20;" parent="77e6c97f196da883-1" vertex="1">
-          <mxGeometry x="320" y="20" width="160" height="730" as="geometry" />
+          <mxGeometry x="321" y="20" width="160" height="730" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
