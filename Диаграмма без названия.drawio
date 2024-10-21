@@ -95,8 +95,8 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="UqeRMRBeU40pSuons1G8-86" value="&lt;font style=&quot;font-size: 6px;&quot;&gt;[ товар було оплачено ]&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="77e6c97f196da883-3">
-          <mxGeometry x="89" y="345" width="90" height="30" as="geometry" />
+        <mxCell id="UqeRMRBeU40pSuons1G8-86" value="&lt;p style=&quot;line-height: 100%;&quot;&gt;&lt;font style=&quot;font-size: 6px;&quot;&gt;[ товар було оплачено ]&lt;/font&gt;&lt;/p&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;labelBorderColor=none;textShadow=0;labelBackgroundColor=none;" vertex="1" parent="77e6c97f196da883-3">
+          <mxGeometry x="89" y="335" width="90" height="50" as="geometry" />
         </mxCell>
         <mxCell id="UqeRMRBeU40pSuons1G8-85" value="&lt;font style=&quot;font-size: 6px;&quot;&gt;[ товар не було оплачено ]&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="77e6c97f196da883-3">
           <mxGeometry x="-10" y="440" width="100" height="30" as="geometry" />
